@@ -11,6 +11,10 @@
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
   },
+  "resolutions": {
+      "**/react": "17.0.2",
+      "**/react-dom": "17.0.2"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "yarn format",
